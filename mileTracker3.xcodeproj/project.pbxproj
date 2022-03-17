@@ -1,0 +1,776 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91470FEF22EE19EEB516D4B3 /* Pods_mileTracker3Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6CA897E6BF72474F2584E15 /* Pods_mileTracker3Tests.framework */; };
+		E3FE7D62ACCD62704EEF89B3 /* Pods_mileTracker3_mileTracker3UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D71C1387CE866699D882EB8E /* Pods_mileTracker3_mileTracker3UITests.framework */; };
+		FA01FDBC26852C4200DB4BE0 /* mileTracker3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01FDBB26852C4200DB4BE0 /* mileTracker3App.swift */; };
+		FA01FDBE26852C4200DB4BE0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01FDBD26852C4200DB4BE0 /* ContentView.swift */; };
+		FA01FDC326852C4500DB4BE0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA01FDC226852C4500DB4BE0 /* Preview Assets.xcassets */; };
+		FA01FDCE26852C4500DB4BE0 /* mileTracker3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01FDCD26852C4500DB4BE0 /* mileTracker3Tests.swift */; };
+		FA01FDD926852C4500DB4BE0 /* mileTracker3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA01FDD826852C4500DB4BE0 /* mileTracker3UITests.swift */; };
+		FA078D632797415C008B7FF8 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA078D622797415C008B7FF8 /* LocationManager.swift */; };
+		FA078D652797424C008B7FF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA078D642797424C008B7FF8 /* AppDelegate.swift */; };
+		FA176ABC27B072A10003705D /* Pods_mileTracker3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C7A3D7D58B9F4BC1C823159 /* Pods_mileTracker3.framework */; };
+		FA77DF0C279258230064582A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FA77DF0B279258230064582A /* GoogleService-Info.plist */; };
+		FA8031D627DBA19E00C931B6 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8031D527DBA19E00C931B6 /* Login.swift */; };
+		FA87E2C627D7BE7F00E32B4A /* boom.gif in Resources */ = {isa = PBXBuildFile; fileRef = FA87E2C527D7BE7F00E32B4A /* boom.gif */; };
+		FA88BD6827B060270022BE8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA88BD6727B060270022BE8F /* Assets.xcassets */; };
+		FAEC588327B2B8E700082180 /* CompassHeading.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEC588227B2B8E700082180 /* CompassHeading.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA01FDCA26852C4500DB4BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA01FDB026852C4200DB4BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA01FDB726852C4200DB4BE0;
+			remoteInfo = mileTracker3;
+		};
+		FA01FDD526852C4500DB4BE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA01FDB026852C4200DB4BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA01FDB726852C4200DB4BE0;
+			remoteInfo = mileTracker3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		547817BA8404D0DC1CB7B505 /* Pods-mileTracker3Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3Tests.debug.xcconfig"; path = "Target Support Files/Pods-mileTracker3Tests/Pods-mileTracker3Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		64CEC180A8D29CD0743E1BA2 /* Pods-mileTracker3-mileTracker3UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3-mileTracker3UITests.release.xcconfig"; path = "Target Support Files/Pods-mileTracker3-mileTracker3UITests/Pods-mileTracker3-mileTracker3UITests.release.xcconfig"; sourceTree = "<group>"; };
+		7C7A3D7D58B9F4BC1C823159 /* Pods_mileTracker3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileTracker3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB3B1BEC2BB5F829F8182A1 /* Pods-mileTracker3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3.debug.xcconfig"; path = "Target Support Files/Pods-mileTracker3/Pods-mileTracker3.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CA897E6BF72474F2584E15 /* Pods_mileTracker3Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileTracker3Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9D3A65A2BC28EF0752053F /* Pods-mileTracker3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3.release.xcconfig"; path = "Target Support Files/Pods-mileTracker3/Pods-mileTracker3.release.xcconfig"; sourceTree = "<group>"; };
+		CADBA3A723B6CBEF8837B49F /* Pods-mileTracker3Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3Tests.release.xcconfig"; path = "Target Support Files/Pods-mileTracker3Tests/Pods-mileTracker3Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D71C1387CE866699D882EB8E /* Pods_mileTracker3_mileTracker3UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mileTracker3_mileTracker3UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01FDB826852C4200DB4BE0 /* mileTracker3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mileTracker3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01FDBB26852C4200DB4BE0 /* mileTracker3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileTracker3App.swift; sourceTree = "<group>"; };
+		FA01FDBD26852C4200DB4BE0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA01FDC226852C4500DB4BE0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA01FDC426852C4500DB4BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA01FDC926852C4500DB4BE0 /* mileTracker3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileTracker3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01FDCD26852C4500DB4BE0 /* mileTracker3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileTracker3Tests.swift; sourceTree = "<group>"; };
+		FA01FDCF26852C4500DB4BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA01FDD426852C4500DB4BE0 /* mileTracker3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mileTracker3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA01FDD826852C4500DB4BE0 /* mileTracker3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mileTracker3UITests.swift; sourceTree = "<group>"; };
+		FA01FDDA26852C4500DB4BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA078D622797415C008B7FF8 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FA078D642797424C008B7FF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA77DF0B279258230064582A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FA8031D527DBA19E00C931B6 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		FA87E2C527D7BE7F00E32B4A /* boom.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = boom.gif; sourceTree = "<group>"; };
+		FA88BD6727B060270022BE8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAEC588227B2B8E700082180 /* CompassHeading.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassHeading.swift; sourceTree = "<group>"; };
+		FCE79A288E9168D722CED803 /* Pods-mileTracker3-mileTracker3UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mileTracker3-mileTracker3UITests.debug.xcconfig"; path = "Target Support Files/Pods-mileTracker3-mileTracker3UITests/Pods-mileTracker3-mileTracker3UITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA01FDB526852C4200DB4BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA176ABC27B072A10003705D /* Pods_mileTracker3.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDC626852C4500DB4BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91470FEF22EE19EEB516D4B3 /* Pods_mileTracker3Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDD126852C4500DB4BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3FE7D62ACCD62704EEF89B3 /* Pods_mileTracker3_mileTracker3UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6FCB91FB37B42BA9E0AF046D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8EB3B1BEC2BB5F829F8182A1 /* Pods-mileTracker3.debug.xcconfig */,
+				BF9D3A65A2BC28EF0752053F /* Pods-mileTracker3.release.xcconfig */,
+				FCE79A288E9168D722CED803 /* Pods-mileTracker3-mileTracker3UITests.debug.xcconfig */,
+				64CEC180A8D29CD0743E1BA2 /* Pods-mileTracker3-mileTracker3UITests.release.xcconfig */,
+				547817BA8404D0DC1CB7B505 /* Pods-mileTracker3Tests.debug.xcconfig */,
+				CADBA3A723B6CBEF8837B49F /* Pods-mileTracker3Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F65926410DF05D40CFB3DBA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C7A3D7D58B9F4BC1C823159 /* Pods_mileTracker3.framework */,
+				D71C1387CE866699D882EB8E /* Pods_mileTracker3_mileTracker3UITests.framework */,
+				A6CA897E6BF72474F2584E15 /* Pods_mileTracker3Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA01FDAF26852C4200DB4BE0 = {
+			isa = PBXGroup;
+			children = (
+				FA01FDBA26852C4200DB4BE0 /* mileTracker3 */,
+				FA01FDCC26852C4500DB4BE0 /* mileTracker3Tests */,
+				FA01FDD726852C4500DB4BE0 /* mileTracker3UITests */,
+				FA01FDB926852C4200DB4BE0 /* Products */,
+				6FCB91FB37B42BA9E0AF046D /* Pods */,
+				F65926410DF05D40CFB3DBA6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FA01FDB926852C4200DB4BE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA01FDB826852C4200DB4BE0 /* mileTracker3.app */,
+				FA01FDC926852C4500DB4BE0 /* mileTracker3Tests.xctest */,
+				FA01FDD426852C4500DB4BE0 /* mileTracker3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA01FDBA26852C4200DB4BE0 /* mileTracker3 */ = {
+			isa = PBXGroup;
+			children = (
+				FA01FDBB26852C4200DB4BE0 /* mileTracker3App.swift */,
+				FA87E2C527D7BE7F00E32B4A /* boom.gif */,
+				FA01FDBD26852C4200DB4BE0 /* ContentView.swift */,
+				FA8031D527DBA19E00C931B6 /* Login.swift */,
+				FAEC588227B2B8E700082180 /* CompassHeading.swift */,
+				FA078D642797424C008B7FF8 /* AppDelegate.swift */,
+				FA078D622797415C008B7FF8 /* LocationManager.swift */,
+				FA77DF0B279258230064582A /* GoogleService-Info.plist */,
+				FA01FDC426852C4500DB4BE0 /* Info.plist */,
+				FA88BD6727B060270022BE8F /* Assets.xcassets */,
+				FA01FDC126852C4500DB4BE0 /* Preview Content */,
+			);
+			path = mileTracker3;
+			sourceTree = "<group>";
+		};
+		FA01FDC126852C4500DB4BE0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA01FDC226852C4500DB4BE0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA01FDCC26852C4500DB4BE0 /* mileTracker3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FA01FDCD26852C4500DB4BE0 /* mileTracker3Tests.swift */,
+				FA01FDCF26852C4500DB4BE0 /* Info.plist */,
+			);
+			path = mileTracker3Tests;
+			sourceTree = "<group>";
+		};
+		FA01FDD726852C4500DB4BE0 /* mileTracker3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA01FDD826852C4500DB4BE0 /* mileTracker3UITests.swift */,
+				FA01FDDA26852C4500DB4BE0 /* Info.plist */,
+			);
+			path = mileTracker3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA01FDB726852C4200DB4BE0 /* mileTracker3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01FDDD26852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3" */;
+			buildPhases = (
+				E087483C38891FE498439766 /* [CP] Check Pods Manifest.lock */,
+				FA01FDB426852C4200DB4BE0 /* Sources */,
+				FA01FDB526852C4200DB4BE0 /* Frameworks */,
+				FA01FDB626852C4200DB4BE0 /* Resources */,
+				194B108089280F338906C365 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mileTracker3;
+			productName = mileTracker3;
+			productReference = FA01FDB826852C4200DB4BE0 /* mileTracker3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA01FDC826852C4500DB4BE0 /* mileTracker3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01FDE026852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3Tests" */;
+			buildPhases = (
+				FB5F79351333A3FC52E8B7E0 /* [CP] Check Pods Manifest.lock */,
+				FA01FDC526852C4500DB4BE0 /* Sources */,
+				FA01FDC626852C4500DB4BE0 /* Frameworks */,
+				FA01FDC726852C4500DB4BE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA01FDCB26852C4500DB4BE0 /* PBXTargetDependency */,
+			);
+			name = mileTracker3Tests;
+			productName = mileTracker3Tests;
+			productReference = FA01FDC926852C4500DB4BE0 /* mileTracker3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA01FDD326852C4500DB4BE0 /* mileTracker3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA01FDE326852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3UITests" */;
+			buildPhases = (
+				1463C152B3F3FE593278A450 /* [CP] Check Pods Manifest.lock */,
+				FA01FDD026852C4500DB4BE0 /* Sources */,
+				FA01FDD126852C4500DB4BE0 /* Frameworks */,
+				FA01FDD226852C4500DB4BE0 /* Resources */,
+				9C110D23619F777E23993580 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA01FDD626852C4500DB4BE0 /* PBXTargetDependency */,
+			);
+			name = mileTracker3UITests;
+			productName = mileTracker3UITests;
+			productReference = FA01FDD426852C4500DB4BE0 /* mileTracker3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA01FDB026852C4200DB4BE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					FA01FDB726852C4200DB4BE0 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					FA01FDC826852C4500DB4BE0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA01FDB726852C4200DB4BE0;
+					};
+					FA01FDD326852C4500DB4BE0 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = FA01FDB726852C4200DB4BE0;
+					};
+				};
+			};
+			buildConfigurationList = FA01FDB326852C4200DB4BE0 /* Build configuration list for PBXProject "mileTracker3" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA01FDAF26852C4200DB4BE0;
+			productRefGroup = FA01FDB926852C4200DB4BE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA01FDB726852C4200DB4BE0 /* mileTracker3 */,
+				FA01FDC826852C4500DB4BE0 /* mileTracker3Tests */,
+				FA01FDD326852C4500DB4BE0 /* mileTracker3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA01FDB626852C4200DB4BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01FDC326852C4500DB4BE0 /* Preview Assets.xcassets in Resources */,
+				FA87E2C627D7BE7F00E32B4A /* boom.gif in Resources */,
+				FA88BD6827B060270022BE8F /* Assets.xcassets in Resources */,
+				FA77DF0C279258230064582A /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDC726852C4500DB4BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDD226852C4500DB4BE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1463C152B3F3FE593278A450 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileTracker3-mileTracker3UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		194B108089280F338906C365 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mileTracker3/Pods-mileTracker3-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mileTracker3/Pods-mileTracker3-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mileTracker3/Pods-mileTracker3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C110D23619F777E23993580 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mileTracker3-mileTracker3UITests/Pods-mileTracker3-mileTracker3UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-mileTracker3-mileTracker3UITests/Pods-mileTracker3-mileTracker3UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-mileTracker3-mileTracker3UITests/Pods-mileTracker3-mileTracker3UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E087483C38891FE498439766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileTracker3-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB5F79351333A3FC52E8B7E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mileTracker3Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA01FDB426852C4200DB4BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAEC588327B2B8E700082180 /* CompassHeading.swift in Sources */,
+				FA078D652797424C008B7FF8 /* AppDelegate.swift in Sources */,
+				FA01FDBE26852C4200DB4BE0 /* ContentView.swift in Sources */,
+				FA8031D627DBA19E00C931B6 /* Login.swift in Sources */,
+				FA01FDBC26852C4200DB4BE0 /* mileTracker3App.swift in Sources */,
+				FA078D632797415C008B7FF8 /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDC526852C4500DB4BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01FDCE26852C4500DB4BE0 /* mileTracker3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA01FDD026852C4500DB4BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA01FDD926852C4500DB4BE0 /* mileTracker3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA01FDCB26852C4500DB4BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA01FDB726852C4200DB4BE0 /* mileTracker3 */;
+			targetProxy = FA01FDCA26852C4500DB4BE0 /* PBXContainerItemProxy */;
+		};
+		FA01FDD626852C4500DB4BE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA01FDB726852C4200DB4BE0 /* mileTracker3 */;
+			targetProxy = FA01FDD526852C4500DB4BE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA01FDDB26852C4500DB4BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		FA01FDDC26852C4500DB4BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA01FDDE26852C4500DB4BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EB3B1BEC2BB5F829F8182A1 /* Pods-mileTracker3.debug.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mileTracker3/Preview Content\"";
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = mileTracker3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FA01FDDF26852C4500DB4BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF9D3A65A2BC28EF0752053F /* Pods-mileTracker3.release.xcconfig */;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"mileTracker3/Preview Content\"";
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = mileTracker3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FA01FDE126852C4500DB4BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 547817BA8404D0DC1CB7B505 /* Pods-mileTracker3Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				INFOPLIST_FILE = mileTracker3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mileTracker3.app/mileTracker3";
+			};
+			name = Debug;
+		};
+		FA01FDE226852C4500DB4BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CADBA3A723B6CBEF8837B49F /* Pods-mileTracker3Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				INFOPLIST_FILE = mileTracker3Tests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mileTracker3.app/mileTracker3";
+			};
+			name = Release;
+		};
+		FA01FDE426852C4500DB4BE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCE79A288E9168D722CED803 /* Pods-mileTracker3-mileTracker3UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				INFOPLIST_FILE = mileTracker3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mileTracker3;
+			};
+			name = Debug;
+		};
+		FA01FDE526852C4500DB4BE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64CEC180A8D29CD0743E1BA2 /* Pods-mileTracker3-mileTracker3UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZL6287AT9V;
+				INFOPLIST_FILE = mileTracker3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "c--.mileTracker3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mileTracker3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA01FDB326852C4200DB4BE0 /* Build configuration list for PBXProject "mileTracker3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01FDDB26852C4500DB4BE0 /* Debug */,
+				FA01FDDC26852C4500DB4BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01FDDD26852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01FDDE26852C4500DB4BE0 /* Debug */,
+				FA01FDDF26852C4500DB4BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01FDE026852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01FDE126852C4500DB4BE0 /* Debug */,
+				FA01FDE226852C4500DB4BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA01FDE326852C4500DB4BE0 /* Build configuration list for PBXNativeTarget "mileTracker3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA01FDE426852C4500DB4BE0 /* Debug */,
+				FA01FDE526852C4500DB4BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA01FDB026852C4200DB4BE0 /* Project object */;
+}
